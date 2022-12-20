@@ -1,0 +1,12 @@
+package studyalgorithm.baekjoon;
+
+// 1부터 100까지 합을 구해라
+public class Q12_self {
+    public static void main(String[] args){
+        int sum = 0;
+        for(int i=1;i<=100;i++){
+            sum = sum + i;
+        }
+        System.out.println(sum);
+    }
+}
